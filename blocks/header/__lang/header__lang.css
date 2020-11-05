@@ -1,0 +1,9 @@
+.header__lang {
+  width: 28px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    width: 20px;
+  }
+}
