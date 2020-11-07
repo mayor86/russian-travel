@@ -20,12 +20,12 @@
   .photo-grid {
     max-width: 720px;
     grid-template-columns: repeat(2, minmax(140px, 352px));
-    grid-template-rows: repeat(2, 264px);
+    grid-template-rows: repeat(auto, 264px);
     padding: 88px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
     grid-template-rows: repeat(12, minmax(0,216px));
     grid-template-columns: 288px;

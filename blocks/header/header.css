@@ -7,11 +7,6 @@
   box-sizing: content-box;
 }
 
-.header nav {
-  padding: 0;
-  margin: 0;
-}
-
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
