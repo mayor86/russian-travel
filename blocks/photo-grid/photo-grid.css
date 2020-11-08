@@ -20,7 +20,7 @@
   .photo-grid {
     max-width: 720px;
     grid-template-columns: repeat(2, minmax(140px, 352px));
-    grid-template-rows: repeat(auto, 264px);
+    grid-template-rows: repeat(6, 264px);
     padding: 88px 24px 0 24px;
   }
 }
